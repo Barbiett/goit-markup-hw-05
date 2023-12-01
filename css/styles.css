@@ -602,6 +602,10 @@ border: 1px solid;
 border-radius: 2px;
 cursor: pointer;
 }
+.user-privacy-policy-checkbox:checked + 
+.form-label-checkbox > .own-checkbox {
+    background-color: #404BBF;
+}
 .accent-form {
     color: #4D5AE5;
     text-decoration-line: underline;
