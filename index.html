@@ -618,9 +618,10 @@
     <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-close-btn" type="button">
-          <svg class="modal-close-btn-svg"
-          width="8"
-          height="8"           
+          <svg
+            class="modal-close-btn-svg"
+            width="18px"
+            height="24px"
             aria-label="modal-close-btn"
           >
             <use href="./images/icons.svg#icon-close"></use>
@@ -631,100 +632,101 @@
         </p>
         <form class="order-form">
           <div class="form-wraper">
-            <label class="form-label" for="user-name">
-              Name</label>
-              <div class="input-wraper">
-                <input
-                  class="form-input"
-                  type="text"
-                  id="user-name"
-                  name="user-name"
-                  required
-                />
-                <svg
-                  class="form-icon-input"
-                  width="18px"
-                  height="24px"
-                  aria-label="icon-user-logo"
-                >
-                  <use href="./images/icons.svg#icon-user"></use>
-                </svg>
-              </div>
-          </div>
-          <div class="form-wraper">
-            <label class="form-label" for="user-tel">
-              Phone </label>
-              <div class="input-wraper">
-                <input
-                  class="form-input"
-                  type="tel"
-                  id="user-tel"
-                  name="user-tel"
-                  required
-                />
-                <svg
-                  class="form-icon-input"
-                  width="18px"
-                  height="24px"
-                  aria-label="icon-user-logo"
-                >
-                  <use href="./images/icons.svg#icon-phone"></use>
-                </svg>
-              </div>
-          </div>
-          <div class="form-wraper">
-            <label class="form-label" for="user-email">
-              Email</label>
-              <div class="input-wraper">
-                <input
-                  class="form-input"
-                  type="email"
-                  id="user-email"
-                  name="user-email"
-                  required
-                />
-                <svg
-                  class="form-icon-input"
-                  width="18px"
-                  height="24px"
-                  aria-label="icon-user-logo"
-                >
-                  <use href="./images/icons.svg#icon-email"></use>
-                </svg>
-              </div>
-          </div>
-          <div>
-            <label class="form-label" for="user-comment">
-              Comment
-              <textarea
+            <label class="form-label" for="user-name"> Name</label>
+            <div class="input-wraper">
+              <input
                 class="form-input"
-                name="user-comment"
-                id="user-comment"
-                placeholder="Text input"
+                type="text"
+                id="user-name"
+                name="user-name"
                 required
-              ></textarea>
-            </label>
+              />
+              <svg
+                class="form-icon-input"
+                width="18px"
+                height="24px"
+                aria-label="icon-user-logo"
+              >
+                <use href="./images/icons.svg#icon-user"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-wraper">
+            <label class="form-label" for="user-tel"> Phone </label>
+            <div class="input-wraper">
+              <input
+                class="form-input"
+                type="tel"
+                id="user-tel"
+                name="user-tel"
+                required
+              />
+              <svg
+                class="form-icon-input"
+                width="18px"
+                height="24px"
+                aria-label="icon-user-logo"
+              >
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="form-wraper">
+            <label class="form-label" for="user-email"> Email</label>
+            <div class="input-wraper">
+              <input
+                class="form-input"
+                type="email"
+                id="user-email"
+                name="user-email"
+                required
+              />
+              <svg
+                class="form-icon-input"
+                width="18px"
+                height="24px"
+                aria-label="icon-user-logo"
+              >
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="texterea-wraper">
+            <label class="form-label" for="user-comment"> Comment</label>
+            <textarea
+              class="form-input"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+              required
+            ></textarea>
           </div>
 
-          <div class="form-wraper">
+          <div class="form-wraper checkbox">
             <input
               class="user-privacy-policy-checkbox"
               type="checkbox"
-              name="user-privacy-policy"
-              id="user-privacy-policy"
+              name="user-privacy"
+              id="user-privacy"
               value="true"
               required
             />
-            <label class="form-label-checkbox" for="user-privacy-policy">
-              <span class="form-own-checkbox"></span>
+            <label class="form-label-checkbox" for="user-privacy">
+              <span class="form-own-checkbox">
+                <svg class="form-own-checkbox-svg">
+                  <use
+                    href="./images/icons.svg#icon-checkbox"
+                    width="10px"
+                    height="8px"
+                    aria-label="icon-checkbox"
+                  ></use>
+                </svg>
+              </span>
               I accept the terms and conditions of the
               <a class="accent-form">Privacy Policy</a>
             </label>
           </div>
-
-          <div>
-            <button class="form-button" type="submit">Send</button>
-          </div>
+          <button class="form-button" type="submit">Send</button>
         </form>
       </div>
     </div>
