@@ -511,6 +511,8 @@ border-radius: 50%;
 background-color: #E7E9FC;
 fill: #2E2F42;
     stroke: rgba(0, 0, 0, 0.10);
+    width: 24px;
+    height: 24px;
     
 }
 .modal-close-btn:hover,
@@ -593,12 +595,16 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .texterea-wraper {
     margin-bottom: 16px;
 }
-.form-label textarea {
+.textarea {
     resize: none;
     height: 120px;
     padding: 8px 16px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    padding: 8px 16px
 }
-.form-wraper .checkbox {
+.checkbox {
     margin-bottom: 24px;
 }
 .form-label-checkbox {
@@ -632,7 +638,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
     background-color: #404BBF;
 }
 .form-own-checkbox-svg {
-    
+
 }
 .accent-form {
     color: #4D5AE5;
