@@ -461,6 +461,63 @@ img {
 .footer .social-list {
     gap: 16px;
 } 
+.wraper-form-footer p { 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.form-footer {
+    display: flex;
+    gap: 24px;
+
+}
+.input-form-footer {
+width: 264px;
+height: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    background-color: transparent;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-size: 12px;
+    padding-left: 16px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    color:#FFF;    
+}
+.input-form-footer::placeholder {
+    color: #FFF;
+}
+.form-footer-btn {
+    display: flex;
+    min-width: 165px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        border-radius: 4px;
+        background: #4D5AE5;
+        border: none;
+        cursor: pointer;
+        padding: 8px 24px;
+
+}
+.form-footer-btn-svg {
+    fill: #FFFFFF;
+    margin-left: 16px;
+
+}
 /* *************** BACKDROP ************** */
 .backdrop {
     position: fixed;
@@ -634,12 +691,15 @@ border: 1px solid rgba(46, 47, 66, 0.4);
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .user-privacy-policy-checkbox:checked + 
-.form-label-checkbox > .own-checkbox {
-    background-color: #404BBF;
+.form-label-checkbox > .form-own-checkbox {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 .form-own-checkbox-svg {
 
 }
+
 .accent-form {
     color: #4D5AE5;
     text-decoration-line: underline;
