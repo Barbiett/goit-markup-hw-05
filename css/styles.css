@@ -462,8 +462,9 @@ img {
     gap: 16px;
 } 
 .wraper-form-footer {
+    
 }
-.wraper-form-footer p { 
+.p-form-footer { 
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -471,8 +472,6 @@ img {
     text-align: left;
     color: #FFFFFF;
     margin-bottom: 16px;
-    
-
 }
 .form-footer {
     display: flex;
