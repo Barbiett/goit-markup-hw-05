@@ -461,6 +461,8 @@ img {
 .footer .social-list {
     gap: 16px;
 } 
+.wraper-form-footer {
+}
 .wraper-form-footer p { 
     font-size: 16px;
     font-weight: 500;
@@ -469,6 +471,8 @@ img {
     text-align: left;
     color: #FFFFFF;
     margin-bottom: 16px;
+    
+
 }
 .form-footer {
     display: flex;
