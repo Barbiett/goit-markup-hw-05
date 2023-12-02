@@ -699,8 +699,12 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
         fill: #F4F4FD;
 }
 .form-own-checkbox-svg {
-fill: ;
-
+fill: #F4F4FD;
+opacity: 0;
+}
+.user-privacy-policy-checkbox:checked +
+.form-label-checkbox .form-own-checkbox-svg {
+    opacity: 1;
 }
 
 .accent-form {
