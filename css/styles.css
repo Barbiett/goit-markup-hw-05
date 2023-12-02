@@ -462,7 +462,7 @@ img {
     gap: 16px;
 } 
 .wraper-form-footer {
-    
+    margin-left: 80px;
 }
 .p-form-footer { 
     font-size: 16px;
@@ -503,7 +503,7 @@ height: 40px;
     align-items: center;
     color: #FFF;
         text-align: center;
-        font-family: Roboto;
+        font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
